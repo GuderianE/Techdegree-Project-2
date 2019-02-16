@@ -64,6 +64,7 @@ img {
 
 .banner {
     padding-top: 1em;
+    text-align: center;
 }
 
 /* Main-contnet */
@@ -84,8 +85,8 @@ img {
 
 .image {
     margin-top: 20px;
-    width: 600px;
-    height: 350px;
+    /* width: 600px;
+    height: 350px; */
     border-radius: 5%;
     border: 5px solid black;
     box-shadow: 10px 8px 50px rgba(0,0,0,30);
@@ -167,6 +168,8 @@ footer {
         width: 90%;
     }
 
+/* Navigation */
+
     .blank {
         width: 100%;
         padding: 50px 0;
@@ -210,6 +213,19 @@ footer {
 
     .name h2 {
         margin: 0;
+    }
+
+    .main-content {
+        display: inline-block;
+        
+    }
+
+    .col {
+        display: inline-block;
+        width: 50%;
+        margin: -4px;
+        padding: 0 2em;
+        vertical-align: top;
     }
 
   }
