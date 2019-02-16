@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Navigation-content */
+
+.main-nav {
+    background-color: #1c6e8c;
+    text-align: center;
+    box-shadow: 10px 8px 50px rgba(0,0,0,30);
+}
+
+.name,
+.links {
+    color: #9dd6eb;
+}
+
+.links a {
+    display: block;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+ .links a:hover {
+    color: #fff2f2;
+    background-color: #e55934;
+}
+
+.name {
+    padding-top: 30px;
+}
+
+/* Banner-content */
+
+.banner {
+    padding-top: 1em;
+}
+
+/* Main-contnet */
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 2%;
+}
+.main-content {
+    text-align: center;
+}
+
+.col h3 {
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.image {
+    margin-top: 20px;
+    width: 600px;
+    height: 350px;
+    border-radius: 5%;
+    border: 5px solid black;
+    box-shadow: 10px 8px 50px rgba(0,0,0,30);
+}
+
+.main-content h2 {
+    padding-top: 60px;
+}
+
+/* Footer-content */
+
+footer {
+    text-align: center;
+    background-color: #bcdbc5;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+  }
+  
+  footer .copyright {
+    color: white;
+    top: -8px;
+    font-size: .75em;
+  }
+  
+  footer .back {
+    text-align: right;
+    font-size: 10px;
+  }
+  
+  .black:hover{
+    color: rgb(5, 17, 8);
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .4;
+    transition: all .5s;
+  }
+  
+  a.linkedin {
+    background-image: url(../images/linkedin.svg);
+  }
+  a.github {
+    background-image: url(../images/github.svg);
+  }
+  a.social:hover {
+    opacity: 1;
+  }
+  .clearfix {
+    clear: both;
+  }
+
