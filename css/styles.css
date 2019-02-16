@@ -21,8 +21,7 @@ h1 {
 }
 
 h2,
-h3,
-a {
+h3 {
 	color: #093a58;
 }
 
@@ -45,23 +44,31 @@ img {
     background-color: #1c6e8c;
     text-align: center;
     box-shadow: 10px 8px 50px rgba(0,0,0,30);
+    padding-bottom: 30px;
 }
 
-.name,
-.links {
+.name {
     color: #9dd6eb;
 }
 
 .links a {
     display: block;
-    padding: 5px 5px;
+    padding: 10px 10px;
     font-weight: bold;
     border-radius: 10px;
+}
+
+a {
+    color: #9dd6eb;
 }
 
  .links a:hover {
     color: #fff2f2;
     background-color: #e55934;
+}
+
+.links a:active {
+    color: #d60000;
 }
 
 .name {
@@ -166,12 +173,16 @@ background-color: #bcdbc5;
     padding: 3% 5% 3% 0;
     margin: -4px;
     font-weight: bold;
+    color: #1d7494;
 }
 
 .footer-links {
     display: none;
 }
 
+.footer-links a {
+    color: #1d7494;
+}
 /* Clearfix */
 
 .clearfix::after {
@@ -194,6 +205,7 @@ background-color: #bcdbc5;
     .main-nav {
         display: inline-block;
         width: 100%;
+        padding-bottom: 0;
     }
 
     .links {
