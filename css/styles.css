@@ -172,6 +172,14 @@ background-color: #bcdbc5;
     display: none;
 }
 
+/* Clearfix */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Media-Queries */
 
   @media (min-width: 768px) {
