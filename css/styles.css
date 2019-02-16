@@ -11,7 +11,8 @@ body {
 
 p {
 	font-size: .95em;
-	margin-bottom: 1.8em;
+    margin-bottom: 1.8em;
+    color: #a48b5d;
 }
 
 h1 {
@@ -115,7 +116,10 @@ a {
 
 .last-section {
     padding-bottom: 50px;
+    color: #a48b5d;
 }
+
+
 
 .last-section ul {
     list-style-type: none;
@@ -146,9 +150,6 @@ background-image: url(../images/github.svg);
 }
 a.social:hover {
 opacity: 1;
-}
-.clearfix {
-clear: both;
 }
 
 /* Footer-content */
@@ -194,7 +195,11 @@ background-color: #bcdbc5;
 /* Media-Queries */
 
   @media (min-width: 768px) {
-    
+   
+    p {
+        font-size: 1em;
+    }
+   
     .container {
         margin: 0 auto;
         width: 90%;
@@ -254,6 +259,15 @@ background-color: #bcdbc5;
         vertical-align: top;
     }
 
+    /* Section-Contact */
+
+    .last-section p {
+        padding: 0 2em;
+    }
+    .last-section ol li {
+        font-size: 1em;
+    }
+
     /* Footer-Content */
 
     .footer-name {
@@ -296,6 +310,10 @@ background-color: #bcdbc5;
 
   @media (min-width: 1024px) {
 
+    p {
+        font-size: 1.2em;
+    }
+
     .container {
         width: 80%;
         max-width: 1125px;
@@ -336,6 +354,12 @@ background-color: #bcdbc5;
         margin: -4px;
         padding: 0 2em;
         vertical-align: top;
+    }
+
+/* Section-Contact */
+
+    .last-section ol li {
+        font-size: 1.2em;
     }
 
   }
